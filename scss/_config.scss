@@ -1,4 +1,4 @@
-$primary-color: #444;
+$primary-color: #000;
 $secondary-color: #a6df3c;
 $show-home-image: true;
 $home-image: url(../img/background.jpg);
@@ -27,6 +27,15 @@ $background-opacity: 0.9;
         this command is to adjust colour of background and your contents in case they have poor visual */
       }
     }
+  }
+}
+
+// Set text color
+@function set-text-color($color) {
+  @if (lightness($color) >40) {
+    @return cyan;
+  } @else {
+    @return #fff;
   }
 }
 
