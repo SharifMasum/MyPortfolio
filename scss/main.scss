@@ -111,12 +111,12 @@ main {
 
 .projects {
   display: grid;
+  place-items: center;
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr);
 
   img {
     width: 100%;
-    min-height: 175px;
     border: 3px #fff solid;
 
     &:hover {
@@ -132,7 +132,6 @@ main {
   display: block;
   padding: 0.5rem 1rem;
   border: 0;
-  -ms-grid-row-align: center;
   margin-bottom: 0.3rem;
   &:hover {
     background: $secondary-color;
