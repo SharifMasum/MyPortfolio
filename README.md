@@ -1,2 +1,2 @@
 # MyPortfolio
-Responsive portfolio website part of LUT course work
+Responsive portfolio website
