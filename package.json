@@ -12,6 +12,14 @@
   "license": "ISC",
   "dependencies": {
     "gh-pages": "^3.2.3",
-    "node-sass": "^6.0.1"
+    "node-sass": "^7.0.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SharifMasum/myPortfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SharifMasum/myPortfolio/issues"
   }
 }

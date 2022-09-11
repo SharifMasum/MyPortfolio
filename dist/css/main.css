@@ -195,7 +195,6 @@ main {
 
 .projects {
   display: grid;
-  place-items: center;
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
